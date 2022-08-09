@@ -1,0 +1,43 @@
+자바실무프로젝트 퀴즈
+
+
+2주차 퀴즈
+
+1. 서블릿 클래스가 꼭 무조건 상속받아야하는 클래스는?
+HttpServlet
+
+2. 서버의 WEB-INF 폴더는 클라이언트가 접근할 수 없는 폴더이다.
+O
+
+3. 특정 Servlet 요청 전체 경로의 URL을 요청하면 복잡하고 보안에도 취약하기 때문에
+간단하게 경로를 표현하고자 설정하는 것을 무엇이라고 하는가?
+서블릿 매핑(mapping)
+
+4. 위 3번의 작업과 관련된 xml 태그가 아닌것은? 3
+1) <servlet-name>
+2) <servlet-class>
+3) <name>
+4) <url-pattetn>
+
+
+
+3주차 퀴즈
+
+1. 서블릿 URL 매핑 설정 방식 2가지는?
+xml 방식, 어노테이션 방식
+
+2. 위 1번 매핑 설정방식과 관련된 코드는? 4
+1) @Servlet
+2) @WebProgram
+3) @Server
+4) @WebServlet
+
+3. 서블릿 클래스에서 서버side의 정보저장을 위한 application 객체를 얻는 메소드는?
+request.getServletContext()
+(request.getSession()은 HtpSession 객체)
+
+4. Cokkie는 어디 side에 정보를 저장하는 방식?
+Client side
+
+5. 정보가 저장된 Cookie를 Client에 저장하기 위해 사용하는 객체는?
+response 객체

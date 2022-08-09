@@ -1,0 +1,22 @@
+* 스프링 layered architecture(구조)  : presentation layer / service layer / data access layer 
+
+* spring core 모듈의 핵심 개념 : IoC / DI
+
+* bean 객체 만들기
+  # xml 방식 :  <bean>
+  # 어노테이션 방식 :  @Component, @Service, @Respository, @Controller
+
+* DI : 생성자나 setter 메소드를 통해서...
+  # xml 방식 : <constructor-arg>, <property>
+  # 어노테이션 방식 : @Autowired, @Qualifier, @Resource, @Inject
+
+
+
+
+
+
+
+
+
+
+

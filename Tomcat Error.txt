@@ -1,0 +1,3 @@
+Tomcat Error
+netstat -p tcp -ano
+taskkill /f /pid 4976
